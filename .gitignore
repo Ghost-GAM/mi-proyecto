@@ -3,3 +3,4 @@ dist/
 .env
 *.env.local
 .angular/
+frontend/src/app/firebase.config.ts
