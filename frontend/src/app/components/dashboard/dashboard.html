@@ -1,0 +1,30 @@
+<div class="dashboard-container">
+  <nav class="navbar">
+    <h2>Mi Aplicación</h2>
+    <div class="user-info" *ngIf="user">
+      <img [src]="user.photoURL" [alt]="user.displayName" class="avatar">
+      <span>{{ user.displayName }}</span>
+      <button (click)="logout()" class="logout-btn">Cerrar sesión</button>
+    </div>
+  </nav>
+
+  <main class="main-content">
+    <h1>Bienvenido, {{ user?.displayName }}!</h1>
+    <p>Has iniciado sesión con: {{ user?.email }}</p>
+
+    <div class="cards-grid">
+      <div class="card">
+        <h3>Usuarios</h3>
+        <p>Gestiona los usuarios del sistema</p>
+      </div>
+      <div class="card">
+        <h3>Productos</h3>
+        <p>Administra tu catálogo</p>
+      </div>
+      <div class="card">
+        <h3>Reportes</h3>
+        <p>Visualiza estadísticas</p>
+      </div>
+    </div>
+  </main>
+</div>
