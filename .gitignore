@@ -1,6 +1,31 @@
+# Dependencias instaladas (se reinstalan con npm install)
 node_modules/
+
+# Build de producción
 dist/
+
+# Variables de entorno (secretos)
 .env
 *.env.local
+
+# Caché de Angular
 .angular/
+
+# Credenciales de Firebase (no subir API keys)
 frontend/src/app/firebase.config.ts
+
+# Caché de Firebase Hosting
+.firebase/
+
+# Sistema operativo
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+npm-debug.log*

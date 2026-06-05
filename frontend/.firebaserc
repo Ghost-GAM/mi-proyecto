@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "programacionweb-1234"
+  },
+  "targets": {
+    "programacionweb-1234": {
+      "hosting": {
+        "principal": [
+          "carpinteria-pablo"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
