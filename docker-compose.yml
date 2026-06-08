@@ -1,20 +1,16 @@
-version: '3.9'
+version: '3.8'
 
 services:
   frontend:
-    build: ./frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pablos-carpinteria
     ports:
-      - "4200:80"
-    depends_on:
-      - backend
+      - "8080:80"
+    restart: unless-stopped
 
-  backend:
-    build: ./backend
-    ports:
-      - "3000:3000"
-    env_file: ./backend/.env
-
-  redis:
-    image: redis:7-alpine
-    ports:
-      - "6379:6379"
+# Para correr:
+#   docker-compose up --build
+#
+# Luego abrir: http://localhost:8080
