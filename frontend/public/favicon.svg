@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Fondo circular café oscuro -->
+  <circle cx="32" cy="32" r="32" fill="#2A1F14"/>
+  <!-- Veta de madera sutil -->
+  <path d="M0 20 Q32 18 64 22" stroke="#3D2B1A" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M0 30 Q32 27 64 32" stroke="#3D2B1A" stroke-width="1" fill="none" opacity="0.4"/>
+  <path d="M0 42 Q32 39 64 43" stroke="#3D2B1A" stroke-width="1.5" fill="none" opacity="0.5"/>
+  <!-- Letra P en dorado -->
+  <text x="32" y="45" 
+        font-family="Georgia, serif" 
+        font-size="38" 
+        font-weight="700"
+        fill="#D4A853" 
+        text-anchor="middle"
+        letter-spacing="-1">P</text>
+  <!-- Borde dorado sutil -->
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#D4A853" stroke-width="1.5" opacity="0.4"/>
+</svg>
